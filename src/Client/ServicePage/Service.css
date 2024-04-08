@@ -1,0 +1,470 @@
+.webdesign{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: overline;
+}
+
+.fullsrv{
+display: flex;
+flex-wrap:wrap ;
+}
+
+.divsrv {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .divsrv {
+      border-style: solid;
+      border-radius: 10px;
+    }
+  }
+  
+  .imgsrv {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .boxsrv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.53);
+    padding: 40px 0 48px;
+  }
+  
+  @media (max-width: 991px) {
+    .boxsrv {
+      gap: 5px;
+      border-width: 0px;
+      border-style: solid;
+      color: rgba(78, 78, 78, 1);
+      background-color: rgba(0, 0, 0, 0.49);
+      margin: 100px 0 -2px;
+      
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .boxsrv {
+      margin-top: 170px;
+    }
+  }
+  
+  .div-2srv {
+    position: relative;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.38);
+    padding-bottom: 34px;
+    margin: auto 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .div-2srv {
+      text-align: center;
+      font-size: 20px;
+      padding: 8px 0 14px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .div-2srv {
+      font-size: 32px;
+    }
+  }
+  
+  .div-3srv {
+    position: relative;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.38);
+    margin: auto 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .div-3srv {
+      margin-top: 1px;
+      text-align: center;
+      font-size: 10px;
+      padding-bottom: 23px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .div-3srv {
+      font-size: 20px;
+    }
+  }
+  
+
+
+
+  /* PricCard */
+
+
+
+
+
+
+  
+  .columnsCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(30, 30, 30, 1);
+    margin: 20px 111px 0 112px;
+  }
+  .divCard {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 640px) {
+    .divCard  {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .columnCard  {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0px;
+  }
+  @media (max-width: 640px) {
+    .columnCard  {
+      width: 100%;
+    }
+  }
+  .div-2Card  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: rgba(94, 38, 191, 1);
+    margin-top: 22px;
+
+  }
+  @media (max-width: 991px) {
+    .div-2Card  {
+      margin-bottom: 102px;
+    }
+  }
+  .imgCard  {
+    aspect-ratio: 1.45;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    min-height: 20px;
+    min-width: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .div-3Card  {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 19px;
+  }
+  @media (max-width: 640px) {
+    .div-3Card  {
+       margin-top: 21.5px;
+    }
+}
+
+  .div-4Card  {
+    position: relative;
+    text-align: center;
+    height: auto;
+    color: rgba(53, 6, 152, 1);
+    font-size: 64px;
+  }
+  .div-5Card  {
+    position: relative;
+    /* margin-top: 9px; */
+    text-align: center;
+    height: auto;
+    color: rgba(130, 130, 130, 1);
+  }
+  .div-6Card  {
+    position: relative;
+    /* margin-top: 19px; */
+    text-align: center;
+    height: 2px;
+    color: rgba(38, 0, 145, 1);
+  }
+  .div-7Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-8Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-9Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-10Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-11Card  {
+    position: relative;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    font-weight: 600;
+    color: rgba(108, 0, 169, 1);
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 32px auto 0;
+    padding: 10px 20px;
+  }
+  .column-2Card  {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    /* margin-left: 20px; */
+    
+    
+  }
+  @media (max-width: 640px) {
+    .column-2Card  {
+      width: 100%;
+    }
+  }
+  .div-12Card  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 57px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: rgba(94, 38, 191, 1);
+    background-color: rgba(107, 2, 150, 1);
+
+  }
+  @media (max-width: 640px) {
+    .div-12Card  {
+      margin-top: 21px;
+    }
+  }
+  .img-2Card  {
+    aspect-ratio: 1.45;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    min-height: 20px;
+    min-width: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .div-13Card  {
+    position: relative;
+    margin-top: 27px;
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.73;
+  }
+  .div-14Card  {
+    position: relative;
+    margin-top: 17px;
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+  }
+  .div-15Card  {
+    position: relative;
+    /* margin-top: 9px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.73;
+  }
+  .div-16Card  {
+    position: relative;
+    /* margin-top: 19px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-17Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-18Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-19Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-20Card  {
+    position: relative;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    font-weight: 600;
+    color: rgba(108, 0, 169, 1);
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 32px auto 0;
+    padding: 10px 20px;
+  }
+  .column-3Card  {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    /* margin-left: 20px; */
+    
+  }
+  @media (max-width: 640px) {
+    .column-3Card  {
+      width: 100%;
+    }
+  }
+  .div-21Card  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: rgba(94, 38, 191, 1);
+    margin-top: 22px;
+  }
+  @media (max-width: 640px) {
+    .div-21Card  {
+      margin-top: 21.5px;
+    }
+  }
+  .img-3Card  {
+    aspect-ratio: 1.45;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    margin-top: -1px;
+    min-height: 20px;
+    min-width: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .div-22Card  {
+    position: relative;
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-23Card  {
+    position: relative;
+    margin-top: 17px;
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+  }
+  .div-24Card  {
+    position: relative;
+  /* margin-top: 9px; */
+    text-align: center;
+    height: auto;
+    color: rgba(130, 130, 130, 1);
+  }
+  .div-25Card  {
+    position: relative;
+    /* margin-top: 19px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-26Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-27Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-28Card  {
+    position: relative;
+    /* margin-top: 8px; */
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 1);
+  }
+  .div-29Card  {
+    position: relative;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    font-weight: 600;
+    color: rgba(108, 0, 169, 1);
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 32px auto 0;
+    padding: 10px 20px;
+  }

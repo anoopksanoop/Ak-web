@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .collabs {
+    color: coral;
+  }
+  .grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    div {
+      width: 150px;
+      margin: 0 1.5rem 1.5rem 0;
+      display: inline-block;
+      width: 100%;
+      border: solid 2px black;
+      padding: 5px;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+      &:hover img {
+        filter: grayscale(0);
+      }
+      &:hover {
+        border-color: coral;
+      }
+      img {
+        width: 100%;
+        filter: grayscale(100%);
+        border-radius: 5px;
+        transition: all .25s ease-in-out;
+      }
+      p {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+        font-style: italic;
+      }
+    }
+  }
+  
+  
+  
+
+
+
+
+  /* working hours */
+  
+  .demo-bg{
+background: coral;
+margin-top: 60px;
+display: flex;
+position: relative;
+}
+.rowtime{
+    width: 350px;
+}
+.business-hours {
+background: #222; 
+padding: 40px 14px;
+margin-top: -15px;
+position: relative;
+}
+.business-hours:before{
+content: '';
+width: 23px;
+height: 23px;
+background: #111;
+position: absolute;
+top: 5px;
+left: -12px;
+transform: rotate(-45deg);
+z-index: -1;
+}
+.business-hours .title {
+font-size: 20px;
+color: #BBB;
+text-transform: uppercase;
+padding-left: 5px;
+border-left: 4px solid #ffac0c; 
+}
+.business-hours li {
+color: #888;
+line-height: 30px;
+border-bottom: 1px solid #333; 
+}
+.business-hours li:last-child {
+border-bottom: none; 
+}
+.business-hours .opening-hours li.today {
+color: #ffac0c; 
+}
+
+
+
+
+
+
+
+/* logo scroll */
+
+
+
+.containersrl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .iconsrl {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  
+  /* Infinite scrolling effect */
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-110%);
+    }
+  }
+  
+  .containersrl .icon:nth-child(8n) {
+    animation: scroll 8s linear infinite;
+  }
+  
+  /* Customize icons */
+  .icon:nth-child(1) { background-color: #ffcccc; }
+  .icon:nth-child(2) { background-color: #ff9999; }
+  .icon:nth-child(3) { background-color: #ff6666; }
+  .icon:nth-child(4) { background-color: #ff3333; }
+  .icon:nth-child(5) { background-color: #ff0000; }
+  .icon:nth-child(6) { background-color: #cc0000; }
+  .icon:nth-child(7) { background-color: #990000; }
+  .icon:nth-child(8) { background-color: #660000; }
